@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=DM+Serif+Text:ital@0;1&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Kaushan+Script&family=Oswald:wght@200..700&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+     --fonte1:verdana,tahoma,Sans-serif;
+     --fonte2:"Aref Ruqaa", serif;
+     --fonte3:"Poppins", serif;
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+html,body{
+    min-height: 100%;
+    background-color: rgba(216, 235, 236, 0);
+    font-family: var(--fonte1);
+      }
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+header>h1{
+    padding-top: 60px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-size: 10vw;
+}
+header>p{
+    padding-bottom: 20px;
+}
+a{
+    background-color: rgb(240, 7, 240);
+    color: rgba(14, 3, 9, 0.918);
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    border: rgba(255, 17, 188, 0.89) 8px solid;
+ 
+    
+  
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 2.5vw;
+}
+section>p{
+    padding-bottom: 2em;
+
+}
+section.normal{
+    background-color: rgba(223, 14, 195, 0.13);
+    color: rgb(2, 15, 15);
+    box-shadow:inset 5px 5px 13px 5px black ;
+    background-attachment: fixed;
+}
+section.imagem>p{
+    background-color: rgba(212, 17, 170, 0);
+    display: inline-block;
+   
+   
+}
+    
+ 
+section#img01{   background-image: url("../imagens/abelha1.jpg");
+    background-position:right center;
+    background-size: cover; 
+    padding: 10px;
+    color: rgb(77, 4, 4);
+   
+    
+}
+section#img02{
+    background-image: url("../imagens/familia1.webp");
+     background-size: cover; 
+    color: rgb(255, 17, 176);
+    background-color: rgba(217, 248, 186, 0.616);
+    
+
+}
+section#img03{
+    background-image: url("../imagens/comeia.png");
+    background-size: cover;
+   
+}
+footer{
+  background-color: black;
+  text-align: left;
+  padding: 20px;
+  box-shadow: inset 5px 5px 5px  5px;
+
+  
+ 
+}
+
+
+
